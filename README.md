@@ -17,7 +17,7 @@
 
 📝 Steps Followed (Mini Guide):
 
-1.Import and Preprocess Dataset
+1. Import and Preprocess Dataset
 
 -> Loaded the dataset using pandas.read_csv()
 
@@ -25,11 +25,11 @@
 
 -> Feature selection based on correlation or domain knowledge
 
-2.Split Data
+2. Split Data
 
 -> Used train_test_split() from sklearn.model_selection to divide data into training and testing sets (typically 80-20 or 70-30 split)
 
-3.Fit Linear Regression Model
+3. Fit Linear Regression Model
 
 -> Imported LinearRegression from sklearn.linear_model
 
@@ -37,7 +37,7 @@
 
 -> Predicted using .predict(X_test)
 
-4.Evaluate Model
+4. Evaluate Model
 
 -> Used:
 
@@ -49,7 +49,7 @@
 
 -> Printed metrics for comparison across models
 
-5.Plot Regression Line
+5. Plot Regression Line
 
 -> For simple regression, plotted actual vs predicted points and regression line using matplotlib.pyplot
 
